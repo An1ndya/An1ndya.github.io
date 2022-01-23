@@ -121,7 +121,7 @@ body.night .experience .job__time,body.night .footer__copyright,body.night .intr
     color: #e7e7e7
 }
 
-body.night .section__content .underline-link:after,html.night .section__content .underline-link:after {
+body.night .section__content .underline-link:after,html.night .section__content .underline-link:after,body.night .intro .underline-link:after,html.night .intro .underline-link:after {
     background: #e7e7e7
 }
 
@@ -253,12 +253,12 @@ strong {
     margin-bottom: 25px
 }
 
-.section__content .underline-link {
+.section__content .underline-link,.intro .underline-link {
     position: relative;
     display: inline-block
 }
 
-.section__content .underline-link:after {
+.section__content .underline-link:after, .intro .underline-link:after  {
     position: absolute;
     top: 100%;
     left: 0;
@@ -275,7 +275,7 @@ strong {
     transform: translateY(-5px)
 }
 
-.section__content .underline-link:focus:after,.section__content .underline-link:hover:after {
+.section__content .underline-link:focus:after,.section__content .underline-link:hover:after,.intro .underline-link:focus:after,.intro .underline-link:hover:after  {
     height: 2px;
     border-radius: 3px;
     opacity: 1;
