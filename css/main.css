@@ -117,11 +117,12 @@ body.night .switch-wrapper .moon,html.night .switch-wrapper .moon {
     background-size: 100%
 }
 
-body.night .experience .job__time,body.night .footer__copyright,body.night .intro,body.night .skills .skillz__category__label,body.night .status,body.night a,body.night strong,html.night .experience .job__time,html.night .footer__copyright,html.night .intro,html.night .skills .skillz__category__label,html.night .status,html.night a,html.night strong, #top-button {
+body.night .experience .job__time,body.night .footer__copyright,body.night .intro,body.night .skills .skillz__category__label,body.night .status,body.night a,body.night strong,html.night .experience .job__time,html.night .footer__copyright,html.night .intro,html.night .skills .skillz__category__label,html.night .status,html.night a,html.night strong, 
+body.night #top-button {
     color: #e7e7e7
 }
 
-body.night .section__content .underline-link:after,html.night .section__content .underline-link:after,body.night .intro .underline-link:after,html.night .intro .underline-link:after {
+body.night .section__content .underline-link:after,html.night .section__content .underline-link:after,body.night .intro__contact .underline-link:after,html.night .intro__contact .underline-link:after {
     background: #e7e7e7
 }
 
@@ -253,12 +254,12 @@ strong {
     margin-bottom: 25px
 }
 
-.section__content .underline-link,.intro .underline-link {
+.section__content .underline-link,.intro__contact .underline-link {
     position: relative;
     display: inline-block
 }
 
-.section__content .underline-link:after, .intro .underline-link:after  {
+.section__content .underline-link:after, .intro__contact .underline-link:after  {
     position: absolute;
     top: 100%;
     left: 0;
@@ -275,7 +276,7 @@ strong {
     transform: translateY(-5px)
 }
 
-.section__content .underline-link:focus:after,.section__content .underline-link:hover:after,.intro .underline-link:focus:after,.intro .underline-link:hover:after  {
+.section__content .underline-link:focus:after,.section__content .underline-link:hover:after,.intro__contact .underline-link:focus:after,.intro__contact .underline-link:hover:after  {
     height: 2px;
     border-radius: 3px;
     opacity: 1;
